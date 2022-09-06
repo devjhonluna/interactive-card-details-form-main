@@ -1,0 +1,22 @@
+@use '_variables.scss' as *;
+@use 'interactive-bg.scss';
+@use 'card';
+@use 'form';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: $spaceGrotesk;
+    font-size: 18px;
+}
+
+.attribution { 
+    font-size: 14px;
+    text-align: center;
+    a { color: hsl(228, 45%, 44%); }
+}
+  
