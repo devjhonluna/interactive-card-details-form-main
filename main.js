@@ -159,6 +159,28 @@ continueBtn.addEventListener("click",event=>{
     formSection.style.display="block";
 
     resetInputs.forEach(input=>input.value='')
+
+    //reset nombre
+    if (nameInput.value=='') {
+        nameCard.innerText='JANE APPLESEED'
+    }else{
+        nameCard.innerText=nameInput.value;
+    }    
+
+    //reset number
+    if (numberInput.value == '') {
+        numberCard.innerText='0000 0000 0000 0000'
+    }
+
+    //reset month  
+    monthCard.innerText='00';
+
+    //reset year 
+    yearCard.innerText='00';
+
+    //reset cvc
+    cvcCard.innerText='000'
+    
 })
 
 //functions
